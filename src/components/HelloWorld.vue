@@ -7,15 +7,24 @@
     <span class="icon icon-mobile"></span>
     <span class="icon icon-connection"></span>
     <h2>本次 demo 主要目标</h2>
-    <ul>
+    <ul class="todo-list">
       <li>
-        1.引入 IcoMoon 图标，以及追加图标
+        1.引入 IcoMoon 字体图标
       </li>
       <li>
-        2.Webpack 抽离文件，样式、Vendors.js
+        2.Webpack 抽离文件，样式、Vendor.js
       </li>
       <li>
-        3.引入 Store
+        3.引入 Vuex
+      </li>
+      <li>
+        4.引入 Element UI
+      </li>
+      <li>
+        5.封装 Axios request
+      </li>
+      <li>
+        6.其他待补充
       </li>
     </ul>
   </div>
@@ -37,12 +46,14 @@ export default {
 h1, h2 {
   font-weight: normal;
 }
-ul {
+.todo-list {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
   list-style-type: none;
   padding: 0;
 }
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 a {
