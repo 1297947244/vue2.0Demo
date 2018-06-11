@@ -9,16 +9,16 @@
     <h2>本次 demo 主要目标</h2>
     <ul class="todo-list">
       <li>
-        1.引入 IcoMoon 字体图标
+        1.引入 IcoMoon 字体图标 --Done
       </li>
       <li>
-        2.Webpack 抽离文件，样式、Vendor.js
+        2.Webpack 抽离文件，样式、Vendor.js --Done
       </li>
       <li>
-        3.引入 Vuex
+        3.引入 Vuex --Done
       </li>
       <li>
-        4.引入 Element UI
+        4.引入 Element UI --Done
       </li>
       <li>
         5.封装 Axios request
