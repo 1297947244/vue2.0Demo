@@ -20,8 +20,6 @@ axios.defaults.headers = {
   'X-Requested-With': 'XMLHttpRequest'
 }
 
-axios.defaults.timeout = 10000
-
 // axios 拦截请求
 axios.interceptors.request.use(config => {
   return config
@@ -149,6 +147,57 @@ let http = {
           } else {
             return Promise.reject(res)
           }
+        }
+      }
+    )
+  },
+  put (url, data) {
+    createLoading()
+    return axios({
+      method: 'put',
+      url,
+      data
+    }).then(
+      (res) => {
+        closeLoading()
+        if (checkCode(res)) {
+          return Promise.resolve(res)
+        } else {
+          return Promise.reject(res)
+        }
+      }
+    )
+  },
+  patch (url, data) {
+    createLoading()
+    return axios({
+      method: 'patch',
+      url,
+      data
+    }).then(
+      (res) => {
+        closeLoading()
+        if (checkCode(res)) {
+          return Promise.resolve(res)
+        } else {
+          return Promise.reject(res)
+        }
+      }
+    )
+  },
+  delete (url, data) {
+    createLoading()
+    return axios({
+      method: 'delete',
+      url,
+      data
+    }).then(
+      (res) => {
+        closeLoading()
+        if (checkCode(res)) {
+          return Promise.resolve(res)
+        } else {
+          return Promise.reject(res)
         }
       }
     )

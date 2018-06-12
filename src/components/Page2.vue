@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h3>VUEX DEMO</h3>
     <el-table
       :data="menuArr"
       border

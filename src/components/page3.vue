@@ -47,7 +47,7 @@ h1, h2 {
   font-weight: normal;
 }
 .todo-list {
-  width: 300px;
+  width: 400px;
   margin: 0 auto;
   text-align: left;
   list-style-type: none;
