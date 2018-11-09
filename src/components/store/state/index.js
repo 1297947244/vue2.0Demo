@@ -1,5 +1,6 @@
 let state = {
-  menuArr: []
+  menuArr: [],
+  lang: localStorage.lang || 'zh'
 }
 
 export default state

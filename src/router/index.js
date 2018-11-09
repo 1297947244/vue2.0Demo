@@ -21,7 +21,7 @@ export default new Router({
     },
     {
       path: '/Page3',
-      name: 'Page3',
+      name: 'Page',
       component: Page3
     },
     {

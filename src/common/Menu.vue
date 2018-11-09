@@ -24,9 +24,16 @@ export default {
 <style lang="scss" scoped>
 .el-submenu {
   text-align: left;
-  .el-menu-item a {
-    color: #333;
-    text-decoration: none;
+  .el-menu-item {
+    padding: 0;
+    a {
+      display: inline-block;
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      color: #333;
+      text-decoration: none;
+    }
   }
 }
 </style>
