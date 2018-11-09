@@ -6,7 +6,7 @@
 
 #### Vue2.5.16 + Vue-router3.0.1 + Vuex3.0.1 + Webpack3.12.0 + ES6 + Axios + Element-UI2.4.0
 
-## 路由正在完善中...
+## 支持中英文切换
 
 ## Build Setup
 
